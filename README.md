@@ -1,3 +1,3 @@
 # UI-ROUTER
 
-Learn basic of ui-router and make demo on that
+In this demo, Provide basic of ui-router
