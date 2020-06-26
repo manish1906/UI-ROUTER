@@ -1,0 +1,22 @@
+﻿<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.9/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.14/angular-ui-router.min.js"></script>
+    <script src="helloworld.js"></script>
+
+    <style>
+        .active {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body ng-app="helloworld">
+    <div ng-include="'hi.html'"></div>
+    <a ui-sref="root" ui-sref-active="active">Root</a>
+    <a ui-sref="home" ui-sref-active="active">Home</a>
+    <ui-view></ui-view>
+
+</body>
+</html>
